@@ -22,9 +22,16 @@ header{
     color: #e66245;
     background-color: #d1bdb8;
     font-size: 50px;
+    
 }
 #navrubrik{
 text-align: center;
 background-color: turquoise;
 }
-nav
+nav{
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
