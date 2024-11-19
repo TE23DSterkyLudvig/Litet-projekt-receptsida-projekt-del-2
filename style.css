@@ -26,14 +26,14 @@ header{
     
 }
 .vit{
-    background-color: wheat;
+    background-color: #d6d4d4;
     font-family: "Montserrat", sans-serif;
+    font-size: larger;
 }
 .grå{
-    background-color: gray;
+    background-color: #d6d4d4;
     margin-right: 60%;
     font-family: "Montserrat", sans-serif;
-    
 }
 nav{
     grid-column: 1/3;
