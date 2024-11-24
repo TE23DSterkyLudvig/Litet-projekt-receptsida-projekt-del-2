@@ -74,8 +74,34 @@ main{
 .border{
     border: 5px solid black;
 }
+
+
+
+
 #omosshead{
     display: flex;
     flex-direction: row;
-  
-}
+  justify-content: center;
+  align-items: center;}
+  .omoss{
+    background-color:#d6d4d4 ;
+  }
+  #tillbaka-omoss{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+    a:hover{
+        color: orange;
+        background-color: aquamarine;
+    }
+    a:active{
+        color: lightblue;
+        background-color: black;
+    }
+    a{
+        background-color: #d6d4d4;
+        padding: 30px;
+    }
+  }
