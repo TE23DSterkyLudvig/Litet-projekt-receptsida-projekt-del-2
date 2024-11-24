@@ -3,6 +3,7 @@ body{
     grid-template-columns: 2fr 4fr;
     grid-template-rows:  34vh 34vh;
     background-color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -76,20 +77,49 @@ main{
 }
 
 
-
+/* Om oss*/
 
 #omosshead{
     display: flex;
     flex-direction: row;
   justify-content: center;
   align-items: center;}
-  .omoss{
-    background-color:#d6d4d4 ;
+  .rubrik-kategorier{
+    background-color: #d6d4d4;
+    font-family: "Montserrat", sans-serif;
   }
-  #tillbaka-omoss{
+  .tillbaka{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    grid-column: 1/3;
+    a:hover{
+        color: orange;
+        background-color: aquamarine;
+    }
+    a:active{
+        color: lightblue;
+        background-color: black;
+    }
+    a{
+        background-color: #d6d4d4;
+        padding: 30px;
+    }
+  }
+
+  /*Kontakt*/
+
+  #kontakthead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  #kontakt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     grid-column: 1/3;
     a:hover{
