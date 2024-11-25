@@ -85,6 +85,9 @@ main{
         font-size: large;
     }
 }
+#instrukrubrik{
+    font-size: larger;
+}
 .border{
     border: 5px solid black;
 }
